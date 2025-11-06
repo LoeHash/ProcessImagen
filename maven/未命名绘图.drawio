@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.9">
+  <diagram name="第 1 页" id="kmywDGHCAkUIHhkkimzx">
+    <mxGraphModel dx="1111" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6NFV_-lQIfKtUpdR1cHw-1" target="6NFV_-lQIfKtUpdR1cHw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-1" value="maven" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-2" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Maven查找依赖流程&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6NFV_-lQIfKtUpdR1cHw-3" target="6NFV_-lQIfKtUpdR1cHw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6NFV_-lQIfKtUpdR1cHw-3" target="6NFV_-lQIfKtUpdR1cHw-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="200.28571428571433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-3" value="查找本地仓库是否有&lt;br&gt;此jar包" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-5" value="直接在项目关联" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-7" value="有" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6NFV_-lQIfKtUpdR1cHw-9" target="6NFV_-lQIfKtUpdR1cHw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-9" value="前往中央仓库下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="169.99571428571434" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6NFV_-lQIfKtUpdR1cHw-10" target="6NFV_-lQIfKtUpdR1cHw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NFV_-lQIfKtUpdR1cHw-10" value="将下载的依赖存储到本地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
