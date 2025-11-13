@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="28.2.9">
+  <diagram name="第 1 页" id="bCAh1Y6I18JGKT6ZAmzy">
+    <mxGraphModel dx="1111" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wa57qUCeCVSYELZIJySr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wa57qUCeCVSYELZIJySr-1" target="wa57qUCeCVSYELZIJySr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-1" value="SpringApp" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wa57qUCeCVSYELZIJySr-3" target="wa57qUCeCVSYELZIJySr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-3" value="Spring容器" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-5" value="1.&amp;nbsp;app.getBean(&quot;userService&quot;)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wa57qUCeCVSYELZIJySr-6" target="wa57qUCeCVSYELZIJySr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-6" value="userService Bean" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-8" value="2. 找到userService bean的配置" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wa57qUCeCVSYELZIJySr-9" target="wa57qUCeCVSYELZIJySr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-9" value="3. 将userService所有的依赖注入" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="540" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-11" value="userService对象实例" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.555;entryY=0.961;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wa57qUCeCVSYELZIJySr-11" target="wa57qUCeCVSYELZIJySr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wa57qUCeCVSYELZIJySr-14" value="4. 返回实例对象" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
